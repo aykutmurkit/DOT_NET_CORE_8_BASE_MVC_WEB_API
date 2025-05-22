@@ -33,7 +33,7 @@ namespace Base.Models
         public bool IsResolved { get; set; } = false;
 
         [StringLength(500, ErrorMessage = "Çözüm açıklaması en fazla 500 karakter olabilir.")]
-        public string ResolutionNotes { get; set; }
+        public string? ResolutionNotes { get; set; }
 
         public DateTime? ResolvedDate { get; set; }
     }

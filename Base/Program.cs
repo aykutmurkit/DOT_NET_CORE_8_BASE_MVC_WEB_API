@@ -181,9 +181,18 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Activate authentication and authorization
-app.UseAuthentication();
-app.UseAuthorization();
+// Get security bypass setting
+var bypassSecurity = builder.Configuration.GetValue<bool>("Security:BypassSecurity");
+if (bypassSecurity)
+{
+    app.Logger.LogWarning("GÜVENLİK UYARISI: Kimlik doğrulama ve yetkilendirme kontrolleri devre dışı bırakılmıştır. Bu ayar sadece geliştirme ortamında kullanılmalıdır!");
+}
+else
+{
+    // Activate authentication and authorization
+    app.UseAuthentication();
+    app.UseAuthorization();
+}
 
 app.MapControllers();
 

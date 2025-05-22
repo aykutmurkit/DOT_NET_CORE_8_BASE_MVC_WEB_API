@@ -12,6 +12,7 @@ namespace Base.Data.Context
 
         public DbSet<Device> Devices { get; set; }
         public DbSet<DeviceLog> DeviceLogs { get; set; }
+        public DbSet<Vehicle> Vehicles { get; set; }
         
     }
 } 

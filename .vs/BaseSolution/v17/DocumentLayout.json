@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\utilities\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\utilities\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\models\\dtos\\device\\devicecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\models\\dtos\\device\\devicecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\data\\seeding\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\data\\seeding\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\utilities\\controllerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\models\\dtos\\test\\testcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +58,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "DeviceCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\DTOs\\Device\\DeviceCreateDto.cs",
+              "RelativeDocumentMoniker": "Base\\Models\\DTOs\\Device\\DeviceCreateDto.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\DTOs\\Device\\DeviceCreateDto.cs",
+              "RelativeToolTip": "Base\\Models\\DTOs\\Device\\DeviceCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:36:13.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Data\\Seeding\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "Base\\Data\\Seeding\\DatabaseSeeder.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Data\\Seeding\\DatabaseSeeder.cs",
+              "RelativeToolTip": "Base\\Data\\Seeding\\DatabaseSeeder.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:35:59.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeviceController.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Controllers\\DeviceController.cs",
+              "RelativeDocumentMoniker": "Base\\Controllers\\DeviceController.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Controllers\\DeviceController.cs",
+              "RelativeToolTip": "Base\\Controllers\\DeviceController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:34:50.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Data\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Base\\Data\\Context\\AppDbContext.cs",
@@ -51,59 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ControllerExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Utilities\\ControllerExtensions.cs",
-              "RelativeDocumentMoniker": "Base\\Utilities\\ControllerExtensions.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Utilities\\ControllerExtensions.cs",
-              "RelativeToolTip": "Base\\Utilities\\ControllerExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T08:28:45.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\UserRole.cs",
-              "RelativeDocumentMoniker": "Base\\Models\\UserRole.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\UserRole.cs",
-              "RelativeToolTip": "Base\\Models\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T08:28:42.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Program.cs",
-              "RelativeDocumentMoniker": "Base\\Program.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Program.cs",
-              "RelativeToolTip": "Base\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T11:15:40.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TestCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
-              "RelativeDocumentMoniker": "Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
-              "RelativeToolTip": "Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T05:43:35.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\appsettings.json",
               "RelativeDocumentMoniker": "Base\\appsettings.json",
@@ -113,6 +124,94 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-22T05:30:00.743Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Program.cs",
+              "RelativeDocumentMoniker": "Base\\Program.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Program.cs",
+              "RelativeToolTip": "Base\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T11:15:40.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Base\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\appsettings.Development.json",
+              "RelativeToolTip": "Base\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T11:42:23.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "Base\\Models\\Device.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\Device.cs",
+              "RelativeToolTip": "Base\\Models\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:36:32.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Utilities\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Base\\Utilities\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Utilities\\ApiResponse.cs",
+              "RelativeToolTip": "Base\\Utilities\\ApiResponse.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:36:49.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ControllerExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Utilities\\ControllerExtensions.cs",
+              "RelativeDocumentMoniker": "Base\\Utilities\\ControllerExtensions.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Utilities\\ControllerExtensions.cs",
+              "RelativeToolTip": "Base\\Utilities\\ControllerExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:28:45.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "Base\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\UserRole.cs",
+              "RelativeToolTip": "Base\\Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:28:42.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TestCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
+              "RelativeDocumentMoniker": "Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
+              "RelativeToolTip": "Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T05:43:35.222Z"
             }
           ]
         }
