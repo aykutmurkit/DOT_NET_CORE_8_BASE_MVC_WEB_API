@@ -15,11 +15,11 @@ namespace Base.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class VehicleController : ControllerBase
+    public class VehicleWithSPController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public VehicleController(AppDbContext context)
+        public VehicleWithSPController(AppDbContext context)
         {
             _context = context;
         }
@@ -128,7 +128,7 @@ namespace Base.Controllers
         }
 
         [HttpPut("{id}")]
-        [Authorize(Policy = "RequireAdminRole")]
+        //[Authorize(Policy = "RequireAdminRole")]
         public async Task<ActionResult<ApiResponse<Vehicle>>> Update(int id, Vehicle vehicle)
         {
             if (id != vehicle.Id)
@@ -172,7 +172,7 @@ namespace Base.Controllers
         }
 
         [HttpDelete("{id}")]
-        [Authorize(Policy = "RequireSuperAdminRole")]
+        //[Authorize(Policy = "RequireSuperAdminRole")]
         public async Task<ActionResult<ApiResponse<object>>> Delete(int id)
         {
             try
@@ -215,19 +215,19 @@ namespace Base.Controllers
             {
                 GetAllVehicles = new
                 {
-                    Endpoint = "/api/vehicle",
+                    Endpoint = "/api/vehiclewithsp",
                     Method = "GET",
                     Description = "Tüm araçları listeler"
                 },
                 GetVehicleById = new
                 {
-                    Endpoint = "/api/vehicle/1",
+                    Endpoint = "/api/vehiclewithsp/1",
                     Method = "GET",
                     Description = "ID'ye göre araç getirir"
                 },
                 CreateVehicle = new
                 {
-                    Endpoint = "/api/vehicle",
+                    Endpoint = "/api/vehiclewithsp",
                     Method = "POST",
                     Description = "Yeni bir araç oluşturur (Admin rolü gerektirir)",
                     SampleRequest = new
@@ -237,7 +237,7 @@ namespace Base.Controllers
                 },
                 UpdateVehicle = new
                 {
-                    Endpoint = "/api/vehicle/1",
+                    Endpoint = "/api/vehiclewithsp/1",
                     Method = "PUT",
                     Description = "Mevcut bir aracı günceller (Admin rolü gerektirir)",
                     SampleRequest = new
@@ -248,185 +248,13 @@ namespace Base.Controllers
                 },
                 DeleteVehicle = new
                 {
-                    Endpoint = "/api/vehicle/5",
+                    Endpoint = "/api/vehiclewithsp/1",
                     Method = "DELETE",
                     Description = "Bir aracı siler (SuperAdmin rolü gerektirir)"
                 }
             };
             
-            return ApiResponse<object>.Success(samples, "Vehicle API test örnekleri");
-        }
-
-        [HttpGet("seed-sp")]
-        public async Task<ActionResult<ApiResponse<string>>> SeedStoredProcedures()
-        {
-            try
-            {
-                // GetAllVehicles SP
-                await CreateGetAllVehiclesSP();
-                
-                // GetVehicleById SP
-                await CreateGetVehicleByIdSP();
-                
-                // AddVehicle SP
-                await CreateAddVehicleSP();
-                
-                // UpdateVehicle SP
-                await CreateUpdateVehicleSP();
-                
-                // DeleteVehicle SP
-                await CreateDeleteVehicleSP();
-                
-                return ApiResponse<string>.Success("Stored procedure'ler başarıyla oluşturuldu.", "İşlem başarılı");
-            }
-            catch (Exception ex)
-            {
-                return this.ServerErrorResponse<string>(
-                    $"Stored procedure'ler oluşturulurken bir hata oluştu: {ex.Message}"
-                );
-            }
-        }
-
-        private async Task CreateGetAllVehiclesSP()
-        {
-            // Önce SP varsa sil
-            var dropSPQuery = @"
-            IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'GetAllVehicles')
-            BEGIN
-                DROP PROCEDURE GetAllVehicles
-            END";
-            
-            await _context.Database.ExecuteSqlRawAsync(dropSPQuery);
-            
-            // Tüm araçları getiren SP'yi oluştur
-            var createSPQuery = @"
-            CREATE PROCEDURE GetAllVehicles
-            AS
-            BEGIN
-                SET NOCOUNT ON;
-                
-                SELECT Id, Name, CreatedDate, UpdatedDate 
-                FROM Vehicles
-                ORDER BY Name ASC
-            END";
-            
-            await _context.Database.ExecuteSqlRawAsync(createSPQuery);
-        }
-
-        private async Task CreateGetVehicleByIdSP()
-        {
-            // Önce SP varsa sil
-            var dropSPQuery = @"
-            IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'GetVehicleById')
-            BEGIN
-                DROP PROCEDURE GetVehicleById
-            END";
-            
-            await _context.Database.ExecuteSqlRawAsync(dropSPQuery);
-            
-            // ID'ye göre araç getiren SP'yi oluştur
-            var createSPQuery = @"
-            CREATE PROCEDURE GetVehicleById
-                @Id int
-            AS
-            BEGIN
-                SET NOCOUNT ON;
-                
-                SELECT Id, Name, CreatedDate, UpdatedDate 
-                FROM Vehicles
-                WHERE Id = @Id
-            END";
-            
-            await _context.Database.ExecuteSqlRawAsync(createSPQuery);
-        }
-
-        private async Task CreateAddVehicleSP()
-        {
-            // Önce SP varsa sil
-            var dropSPQuery = @"
-            IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'AddVehicle')
-            BEGIN
-                DROP PROCEDURE AddVehicle
-            END";
-            
-            await _context.Database.ExecuteSqlRawAsync(dropSPQuery);
-            
-            // Yeni araç ekleyen SP'yi oluştur
-            var createSPQuery = @"
-            CREATE PROCEDURE AddVehicle
-                @Name nvarchar(100),
-                @CreatedDate datetime
-            AS
-            BEGIN
-                SET NOCOUNT ON;
-                
-                INSERT INTO Vehicles (Name, CreatedDate)
-                VALUES (@Name, @CreatedDate);
-                
-                SELECT SCOPE_IDENTITY() as Id;
-            END";
-            
-            await _context.Database.ExecuteSqlRawAsync(createSPQuery);
-        }
-
-        private async Task CreateUpdateVehicleSP()
-        {
-            // Önce SP varsa sil
-            var dropSPQuery = @"
-            IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'UpdateVehicle')
-            BEGIN
-                DROP PROCEDURE UpdateVehicle
-            END";
-            
-            await _context.Database.ExecuteSqlRawAsync(dropSPQuery);
-            
-            // Araç güncelleyen SP'yi oluştur
-            var createSPQuery = @"
-            CREATE PROCEDURE UpdateVehicle
-                @Id int,
-                @Name nvarchar(100),
-                @UpdatedDate datetime
-            AS
-            BEGIN
-                SET NOCOUNT ON;
-                
-                UPDATE Vehicles
-                SET Name = @Name,
-                    UpdatedDate = @UpdatedDate
-                WHERE Id = @Id;
-                
-                SELECT @@ROWCOUNT as AffectedRows;
-            END";
-            
-            await _context.Database.ExecuteSqlRawAsync(createSPQuery);
-        }
-
-        private async Task CreateDeleteVehicleSP()
-        {
-            // Önce SP varsa sil
-            var dropSPQuery = @"
-            IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'DeleteVehicle')
-            BEGIN
-                DROP PROCEDURE DeleteVehicle
-            END";
-            
-            await _context.Database.ExecuteSqlRawAsync(dropSPQuery);
-            
-            // Araç silen SP'yi oluştur
-            var createSPQuery = @"
-            CREATE PROCEDURE DeleteVehicle
-                @Id int
-            AS
-            BEGIN
-                SET NOCOUNT ON;
-                
-                DELETE FROM Vehicles
-                WHERE Id = @Id;
-                
-                SELECT @@ROWCOUNT as AffectedRows;
-            END";
-            
-            await _context.Database.ExecuteSqlRawAsync(createSPQuery);
+            return ApiResponse<object>.Success(samples, "API kullanım örnekleri");
         }
     }
 } 

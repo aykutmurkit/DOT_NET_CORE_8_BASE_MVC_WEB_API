@@ -1,53 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\",
+  "WorkspaceRootPath": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\github\\dot_net_core_8_base_mvc_web_api\\base\\controllers\\vehiclewithspcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\controllers\\vehiclewithspcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\github\\dot_net_core_8_base_mvc_web_api\\base\\data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\data\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\github\\dot_net_core_8_base_mvc_web_api\\base\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\utilities\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\github\\dot_net_core_8_base_mvc_web_api\\base\\data\\seeding\\vehicleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\data\\seeding\\vehicleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\github\\dot_net_core_8_base_mvc_web_api\\base\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\github\\dot_net_core_8_base_mvc_web_api\\base\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\github\\dot_net_core_8_base_mvc_web_api\\base\\utilities\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\utilities\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\github\\dot_net_core_8_base_mvc_web_api\\base\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\models\\dtos\\device\\devicecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\github\\dot_net_core_8_base_mvc_web_api\\base\\models\\dtos\\device\\devicecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\models\\dtos\\device\\devicecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\data\\seeding\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\github\\dot_net_core_8_base_mvc_web_api\\base\\data\\seeding\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\data\\seeding\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\utilities\\controllerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\github\\dot_net_core_8_base_mvc_web_api\\base\\utilities\\controllerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\utilities\\controllerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\github\\dot_net_core_8_base_mvc_web_api\\base\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\cihanabimvc\\base\\models\\dtos\\test\\testcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|c:\\users\\amurkit\\desktop\\github\\dot_net_core_8_base_mvc_web_api\\base\\models\\dtos\\test\\testcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E6F7253-BB17-4B76-ACD3-15A8FC1C01DC}|Base\\Base.csproj|solutionrelative:base\\models\\dtos\\test\\testcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,54 +62,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DeviceCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\DTOs\\Device\\DeviceCreateDto.cs",
-              "RelativeDocumentMoniker": "Base\\Models\\DTOs\\Device\\DeviceCreateDto.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\DTOs\\Device\\DeviceCreateDto.cs",
-              "RelativeToolTip": "Base\\Models\\DTOs\\Device\\DeviceCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "VehicleWithSPController.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Controllers\\VehicleWithSPController.cs",
+              "RelativeDocumentMoniker": "Base\\Controllers\\VehicleWithSPController.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Controllers\\VehicleWithSPController.cs",
+              "RelativeToolTip": "Base\\Controllers\\VehicleWithSPController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:36:13.22Z",
+              "WhenOpened": "2025-05-23T06:33:27.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "DeviceCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Models\\DTOs\\Device\\DeviceCreateDto.cs",
+              "RelativeDocumentMoniker": "Base\\Models\\DTOs\\Device\\DeviceCreateDto.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Models\\DTOs\\Device\\DeviceCreateDto.cs",
+              "RelativeToolTip": "Base\\Models\\DTOs\\Device\\DeviceCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:36:13.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DatabaseSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Data\\Seeding\\DatabaseSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Data\\Seeding\\DatabaseSeeder.cs",
               "RelativeDocumentMoniker": "Base\\Data\\Seeding\\DatabaseSeeder.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Data\\Seeding\\DatabaseSeeder.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Data\\Seeding\\DatabaseSeeder.cs",
               "RelativeToolTip": "Base\\Data\\Seeding\\DatabaseSeeder.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:35:59.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T11:35:59.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeviceController.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Controllers\\DeviceController.cs",
-              "RelativeDocumentMoniker": "Base\\Controllers\\DeviceController.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Controllers\\DeviceController.cs",
-              "RelativeToolTip": "Base\\Controllers\\DeviceController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowDUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:34:50.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Data\\Context\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Data\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Base\\Data\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Data\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Data\\Context\\AppDbContext.cs",
               "RelativeToolTip": "Base\\Data\\Context\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -114,76 +116,86 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\appsettings.json",
               "RelativeDocumentMoniker": "Base\\appsettings.json",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\appsettings.json",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\appsettings.json",
               "RelativeToolTip": "Base\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAADWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-22T05:30:00.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "VehicleSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Data\\Seeding\\VehicleSeeder.cs",
+              "RelativeDocumentMoniker": "Base\\Data\\Seeding\\VehicleSeeder.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Data\\Seeding\\VehicleSeeder.cs",
+              "RelativeToolTip": "Base\\Data\\Seeding\\VehicleSeeder.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T05:44:49.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Program.cs",
               "RelativeDocumentMoniker": "Base\\Program.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Program.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Program.cs",
               "RelativeToolTip": "Base\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T11:15:40.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Base\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\appsettings.Development.json",
               "RelativeToolTip": "Base\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-22T11:42:23.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T11:42:23.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "Base\\Models\\Device.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Models\\Device.cs",
+              "RelativeToolTip": "Base\\Models\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:36:32.562Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Device.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\Device.cs",
-              "RelativeDocumentMoniker": "Base\\Models\\Device.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\Device.cs",
-              "RelativeToolTip": "Base\\Models\\Device.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:36:32.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Utilities\\ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Utilities\\ApiResponse.cs",
               "RelativeDocumentMoniker": "Base\\Utilities\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Utilities\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Utilities\\ApiResponse.cs",
               "RelativeToolTip": "Base\\Utilities\\ApiResponse.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:36:49.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T11:36:49.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ControllerExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Utilities\\ControllerExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Utilities\\ControllerExtensions.cs",
               "RelativeDocumentMoniker": "Base\\Utilities\\ControllerExtensions.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Utilities\\ControllerExtensions.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Utilities\\ControllerExtensions.cs",
               "RelativeToolTip": "Base\\Utilities\\ControllerExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -191,11 +203,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "Base\\Models\\UserRole.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Models\\UserRole.cs",
               "RelativeToolTip": "Base\\Models\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -203,11 +215,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "TestCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
               "RelativeDocumentMoniker": "Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
-              "ToolTip": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
+              "ToolTip": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
               "RelativeToolTip": "Base\\Models\\DTOs\\Test\\TestCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

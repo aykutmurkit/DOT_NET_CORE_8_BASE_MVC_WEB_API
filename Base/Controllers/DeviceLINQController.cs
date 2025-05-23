@@ -11,13 +11,23 @@ using System.Threading.Tasks;
 
 namespace Base.Controllers
 {
+    // DeviceNameDto moved to a nested namespace to avoid duplication
+    namespace DeviceDTOs
+    {
+        public class DeviceNameDto
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+        }
+    }
+    
     [ApiController]
     [Route("api/[controller]")]
-    public class DeviceController : ControllerBase
+    public class DeviceLINQController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public DeviceController(AppDbContext context)
+        public DeviceLINQController(AppDbContext context)
         {
             _context = context;
         }
@@ -41,23 +51,23 @@ namespace Base.Controllers
         /// Stored Procedure kullanarak aktif cihazların id ve isimlerini getirir
         /// </summary>
         [HttpGet("names")]
-        public async Task<ActionResult<ApiResponse<List<DeviceNameDto>>>> GetDeviceNames()
+        public async Task<ActionResult<ApiResponse<List<DeviceDTOs.DeviceNameDto>>>> GetDeviceNames()
         {
             try
             {
                 // Stored Procedure'ü doğrudan çağır
                 var deviceNames = await _context.Database
-                    .SqlQueryRaw<DeviceNameDto>("EXEC GetDeviceNames")
+                    .SqlQueryRaw<DeviceDTOs.DeviceNameDto>("EXEC GetDeviceNames")
                     .ToListAsync();
                 
-                return ApiResponse<List<DeviceNameDto>>.Success(
+                return ApiResponse<List<DeviceDTOs.DeviceNameDto>>.Success(
                     deviceNames, 
                     $"{deviceNames.Count} adet aktif cihaz ismi listelendi."
                 );
             }
             catch (Exception ex)
             {
-                return this.ServerErrorResponse<List<DeviceNameDto>>(
+                return this.ServerErrorResponse<List<DeviceDTOs.DeviceNameDto>>(
                     $"Cihaz isimleri alınırken bir hata oluştu: {ex.Message}"
                 );
             }
@@ -204,14 +214,5 @@ namespace Base.Controllers
         {
             return await _context.Devices.AnyAsync(e => e.Id == id);
         }
-    }
-
-    /// <summary>
-    /// Cihaz ID ve isimlerini taşıyan DTO sınıfı
-    /// </summary>
-    public class DeviceNameDto
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
     }
 } 

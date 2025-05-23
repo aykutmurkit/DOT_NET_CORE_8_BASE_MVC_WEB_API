@@ -13,11 +13,11 @@ namespace Base.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class DeviceLogController : ControllerBase
+    public class DeviceLogLINQController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public DeviceLogController(AppDbContext context)
+        public DeviceLogLINQController(AppDbContext context)
         {
             _context = context;
         }

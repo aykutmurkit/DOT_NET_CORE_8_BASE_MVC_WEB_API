@@ -15,10 +15,10 @@
     "version": "v1"
   },
   "paths": {
-    "/api/Device": {
+    "/api/DeviceLINQ": {
       "get": {
         "tags": [
-          "Device"
+          "DeviceLINQ"
         ],
         "parameters": [
           {
@@ -56,7 +56,7 @@
       },
       "post": {
         "tags": [
-          "Device"
+          "DeviceLINQ"
         ],
         "requestBody": {
           "content": {
@@ -101,10 +101,10 @@
         }
       }
     },
-    "/api/Device/names": {
+    "/api/DeviceLINQ/names": {
       "get": {
         "tags": [
-          "Device"
+          "DeviceLINQ"
         ],
         "responses": {
           "200": {
@@ -130,10 +130,10 @@
         }
       }
     },
-    "/api/Device/{id}": {
+    "/api/DeviceLINQ/{id}": {
       "get": {
         "tags": [
-          "Device"
+          "DeviceLINQ"
         ],
         "parameters": [
           {
@@ -181,7 +181,7 @@
       },
       "put": {
         "tags": [
-          "Device"
+          "DeviceLINQ"
         ],
         "parameters": [
           {
@@ -239,7 +239,7 @@
       },
       "delete": {
         "tags": [
-          "Device"
+          "DeviceLINQ"
         ],
         "parameters": [
           {
@@ -277,10 +277,10 @@
         }
       }
     },
-    "/api/Device/{deviceId}/logs": {
+    "/api/DeviceLINQ/{deviceId}/logs": {
       "post": {
         "tags": [
-          "Device"
+          "DeviceLINQ"
         ],
         "parameters": [
           {
@@ -338,7 +338,7 @@
       },
       "get": {
         "tags": [
-          "Device"
+          "DeviceLINQ"
         ],
         "parameters": [
           {
@@ -376,10 +376,10 @@
         }
       }
     },
-    "/api/DeviceLog": {
+    "/api/DeviceLogLINQ": {
       "get": {
         "tags": [
-          "DeviceLog"
+          "DeviceLogLINQ"
         ],
         "responses": {
           "200": {
@@ -406,7 +406,7 @@
       },
       "post": {
         "tags": [
-          "DeviceLog"
+          "DeviceLogLINQ"
         ],
         "requestBody": {
           "content": {
@@ -451,10 +451,10 @@
         }
       }
     },
-    "/api/DeviceLog/{id}": {
+    "/api/DeviceLogLINQ/{id}": {
       "get": {
         "tags": [
-          "DeviceLog"
+          "DeviceLogLINQ"
         ],
         "parameters": [
           {
@@ -493,7 +493,7 @@
       },
       "put": {
         "tags": [
-          "DeviceLog"
+          "DeviceLogLINQ"
         ],
         "parameters": [
           {
@@ -551,7 +551,7 @@
       },
       "delete": {
         "tags": [
-          "DeviceLog"
+          "DeviceLogLINQ"
         ],
         "parameters": [
           {
@@ -589,10 +589,10 @@
         }
       }
     },
-    "/api/DeviceLog/device/{deviceId}": {
+    "/api/DeviceLogLINQ/device/{deviceId}": {
       "get": {
         "tags": [
-          "DeviceLog"
+          "DeviceLogLINQ"
         ],
         "parameters": [
           {
@@ -630,10 +630,10 @@
         }
       }
     },
-    "/api/Secured/public": {
+    "/api/RateLimitLINQ/test": {
       "get": {
         "tags": [
-          "Secured"
+          "RateLimitLINQ"
         ],
         "responses": {
           "200": {
@@ -659,10 +659,10 @@
         }
       }
     },
-    "/api/Secured/user": {
+    "/api/RateLimitLINQ/fast": {
       "get": {
         "tags": [
-          "Secured"
+          "RateLimitLINQ"
         ],
         "responses": {
           "200": {
@@ -688,10 +688,10 @@
         }
       }
     },
-    "/api/Secured/developer": {
+    "/api/RateLimitLINQ/config": {
       "get": {
         "tags": [
-          "Secured"
+          "RateLimitLINQ"
         ],
         "responses": {
           "200": {
@@ -717,10 +717,10 @@
         }
       }
     },
-    "/api/Secured/admin": {
+    "/api/RateLimitLINQ/info": {
       "get": {
         "tags": [
-          "Secured"
+          "RateLimitLINQ"
         ],
         "responses": {
           "200": {
@@ -746,10 +746,10 @@
         }
       }
     },
-    "/api/Secured/superadmin": {
+    "/api/TestSecurityLINQ/public": {
       "get": {
         "tags": [
-          "Secured"
+          "TestSecurityLINQ"
         ],
         "responses": {
           "200": {
@@ -775,10 +775,10 @@
         }
       }
     },
-    "/api/Secured/user-info": {
+    "/api/TestSecurityLINQ/user": {
       "get": {
         "tags": [
-          "Secured"
+          "TestSecurityLINQ"
         ],
         "responses": {
           "200": {
@@ -804,10 +804,126 @@
         }
       }
     },
-    "/api/TestValidation/create/test": {
+    "/api/TestSecurityLINQ/developer": {
+      "get": {
+        "tags": [
+          "TestSecurityLINQ"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/TestSecurityLINQ/admin": {
+      "get": {
+        "tags": [
+          "TestSecurityLINQ"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/TestSecurityLINQ/superadmin": {
+      "get": {
+        "tags": [
+          "TestSecurityLINQ"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/TestSecurityLINQ/user-info": {
+      "get": {
+        "tags": [
+          "TestSecurityLINQ"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectApiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectApiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ObjectApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/TestValidationLINQ/create/test": {
       "post": {
         "tags": [
-          "TestValidation"
+          "TestValidationLINQ"
         ],
         "requestBody": {
           "content": {
@@ -852,10 +968,10 @@
         }
       }
     },
-    "/api/TestValidation/update/test": {
+    "/api/TestValidationLINQ/update/test": {
       "post": {
         "tags": [
-          "TestValidation"
+          "TestValidationLINQ"
         ],
         "requestBody": {
           "content": {
@@ -900,10 +1016,10 @@
         }
       }
     },
-    "/api/TestValidation/samples": {
+    "/api/TestValidationLINQ/samples": {
       "get": {
         "tags": [
-          "TestValidation"
+          "TestValidationLINQ"
         ],
         "responses": {
           "200": {
@@ -929,10 +1045,10 @@
         }
       }
     },
-    "/api/Vehicle": {
+    "/api/VehicleWithSP": {
       "get": {
         "tags": [
-          "Vehicle"
+          "VehicleWithSP"
         ],
         "responses": {
           "200": {
@@ -959,7 +1075,7 @@
       },
       "post": {
         "tags": [
-          "Vehicle"
+          "VehicleWithSP"
         ],
         "requestBody": {
           "content": {
@@ -1004,10 +1120,10 @@
         }
       }
     },
-    "/api/Vehicle/{id}": {
+    "/api/VehicleWithSP/{id}": {
       "get": {
         "tags": [
-          "Vehicle"
+          "VehicleWithSP"
         ],
         "parameters": [
           {
@@ -1046,7 +1162,7 @@
       },
       "put": {
         "tags": [
-          "Vehicle"
+          "VehicleWithSP"
         ],
         "parameters": [
           {
@@ -1104,7 +1220,7 @@
       },
       "delete": {
         "tags": [
-          "Vehicle"
+          "VehicleWithSP"
         ],
         "parameters": [
           {
@@ -1142,10 +1258,10 @@
         }
       }
     },
-    "/api/Vehicle/samples": {
+    "/api/VehicleWithSP/samples": {
       "get": {
         "tags": [
-          "Vehicle"
+          "VehicleWithSP"
         ],
         "responses": {
           "200": {
@@ -1164,35 +1280,6 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/ObjectApiResponse"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/Vehicle/seed-sp": {
-      "get": {
-        "tags": [
-          "Vehicle"
-        ],
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/StringApiResponse"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/StringApiResponse"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/StringApiResponse"
                 }
               }
             }
@@ -1488,37 +1575,6 @@
             "type": "boolean"
           },
           "data": {
-            "nullable": true
-          },
-          "errors": {
-            "type": "object",
-            "additionalProperties": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            },
-            "nullable": true
-          },
-          "message": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "StringApiResponse": {
-        "type": "object",
-        "properties": {
-          "statusCode": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "isSuccess": {
-            "type": "boolean"
-          },
-          "data": {
-            "type": "string",
             "nullable": true
           },
           "errors": {

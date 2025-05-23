@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Base.csproj": {}
+    "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Base.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Base.csproj": {
+    "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Base.csproj",
+        "projectUniqueName": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Base.csproj",
         "projectName": "Base",
-        "projectPath": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\Base.csproj",
+        "projectPath": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\Base.csproj",
         "packagesPath": "C:\\Users\\amurkit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amurkit\\Desktop\\cihanabimvc\\Base\\obj\\",
+        "outputPath": "C:\\Users\\amurkit\\Desktop\\github\\DOT_NET_CORE_8_BASE_MVC_WEB_API\\Base\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspNetCoreRateLimit": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.5, )"

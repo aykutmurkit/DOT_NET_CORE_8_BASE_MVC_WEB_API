@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "Base.Controllers.DeviceController",
+    "ContainingType": "Base.Controllers.DeviceLINQController",
     "Method": "GetAll",
-    "RelativePath": "api/Device",
+    "RelativePath": "api/DeviceLINQ",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -26,9 +26,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.DeviceController",
+    "ContainingType": "Base.Controllers.DeviceLINQController",
     "Method": "Create",
-    "RelativePath": "api/Device",
+    "RelativePath": "api/DeviceLINQ",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -52,9 +52,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.DeviceController",
+    "ContainingType": "Base.Controllers.DeviceLINQController",
     "Method": "AddLog",
-    "RelativePath": "api/Device/{deviceId}/logs",
+    "RelativePath": "api/DeviceLINQ/{deviceId}/logs",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -83,9 +83,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.DeviceController",
+    "ContainingType": "Base.Controllers.DeviceLINQController",
     "Method": "GetLogs",
-    "RelativePath": "api/Device/{deviceId}/logs",
+    "RelativePath": "api/DeviceLINQ/{deviceId}/logs",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -109,9 +109,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.DeviceController",
+    "ContainingType": "Base.Controllers.DeviceLINQController",
     "Method": "GetById",
-    "RelativePath": "api/Device/{id}",
+    "RelativePath": "api/DeviceLINQ/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -140,9 +140,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.DeviceController",
+    "ContainingType": "Base.Controllers.DeviceLINQController",
     "Method": "Update",
-    "RelativePath": "api/Device/{id}",
+    "RelativePath": "api/DeviceLINQ/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -171,9 +171,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.DeviceController",
+    "ContainingType": "Base.Controllers.DeviceLINQController",
     "Method": "Delete",
-    "RelativePath": "api/Device/{id}",
+    "RelativePath": "api/DeviceLINQ/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -197,16 +197,16 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.DeviceController",
+    "ContainingType": "Base.Controllers.DeviceLINQController",
     "Method": "GetDeviceNames",
-    "RelativePath": "api/Device/names",
+    "RelativePath": "api/DeviceLINQ/names",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Base.Utilities.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Base.Controllers.DeviceNameDto, Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "Base.Utilities.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Base.Controllers.DeviceDTOs.DeviceNameDto, Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -217,9 +217,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.DeviceLogController",
+    "ContainingType": "Base.Controllers.DeviceLogLINQController",
     "Method": "GetAll",
-    "RelativePath": "api/DeviceLog",
+    "RelativePath": "api/DeviceLogLINQ",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -237,9 +237,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.DeviceLogController",
+    "ContainingType": "Base.Controllers.DeviceLogLINQController",
     "Method": "Create",
-    "RelativePath": "api/DeviceLog",
+    "RelativePath": "api/DeviceLogLINQ",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -263,9 +263,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.DeviceLogController",
+    "ContainingType": "Base.Controllers.DeviceLogLINQController",
     "Method": "GetById",
-    "RelativePath": "api/DeviceLog/{id}",
+    "RelativePath": "api/DeviceLogLINQ/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -289,9 +289,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.DeviceLogController",
+    "ContainingType": "Base.Controllers.DeviceLogLINQController",
     "Method": "Update",
-    "RelativePath": "api/DeviceLog/{id}",
+    "RelativePath": "api/DeviceLogLINQ/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -320,9 +320,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.DeviceLogController",
+    "ContainingType": "Base.Controllers.DeviceLogLINQController",
     "Method": "Delete",
-    "RelativePath": "api/DeviceLog/{id}",
+    "RelativePath": "api/DeviceLogLINQ/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -346,9 +346,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.DeviceLogController",
+    "ContainingType": "Base.Controllers.DeviceLogLINQController",
     "Method": "GetByDeviceId",
-    "RelativePath": "api/DeviceLog/device/{deviceId}",
+    "RelativePath": "api/DeviceLogLINQ/device/{deviceId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -372,9 +372,89 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.SecuredController",
+    "ContainingType": "Base.Controllers.RateLimitLINQController",
+    "Method": "GetRateLimitConfig",
+    "RelativePath": "api/RateLimitLINQ/config",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Base.Utilities.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Base.Controllers.RateLimitLINQController",
+    "Method": "FastRateLimit",
+    "RelativePath": "api/RateLimitLINQ/fast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Base.Utilities.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Base.Controllers.RateLimitLINQController",
+    "Method": "RateLimitInfo",
+    "RelativePath": "api/RateLimitLINQ/info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Base.Utilities.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Base.Controllers.RateLimitLINQController",
+    "Method": "TestRateLimit",
+    "RelativePath": "api/RateLimitLINQ/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Base.Utilities.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Base.Controllers.TestSecurityLINQController",
     "Method": "AdminEndpoint",
-    "RelativePath": "api/Secured/admin",
+    "RelativePath": "api/TestSecurityLINQ/admin",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -392,9 +472,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.SecuredController",
+    "ContainingType": "Base.Controllers.TestSecurityLINQController",
     "Method": "DeveloperEndpoint",
-    "RelativePath": "api/Secured/developer",
+    "RelativePath": "api/TestSecurityLINQ/developer",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -412,9 +492,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.SecuredController",
+    "ContainingType": "Base.Controllers.TestSecurityLINQController",
     "Method": "PublicEndpoint",
-    "RelativePath": "api/Secured/public",
+    "RelativePath": "api/TestSecurityLINQ/public",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -432,9 +512,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.SecuredController",
+    "ContainingType": "Base.Controllers.TestSecurityLINQController",
     "Method": "SuperAdminEndpoint",
-    "RelativePath": "api/Secured/superadmin",
+    "RelativePath": "api/TestSecurityLINQ/superadmin",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -452,9 +532,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.SecuredController",
+    "ContainingType": "Base.Controllers.TestSecurityLINQController",
     "Method": "UserEndpoint",
-    "RelativePath": "api/Secured/user",
+    "RelativePath": "api/TestSecurityLINQ/user",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -472,9 +552,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.SecuredController",
+    "ContainingType": "Base.Controllers.TestSecurityLINQController",
     "Method": "GetUserInfo",
-    "RelativePath": "api/Secured/user-info",
+    "RelativePath": "api/TestSecurityLINQ/user-info",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -492,9 +572,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.TestValidationController",
+    "ContainingType": "Base.Controllers.TestValidationLINQController",
     "Method": "TestCreateValidation",
-    "RelativePath": "api/TestValidation/create/test",
+    "RelativePath": "api/TestValidationLINQ/create/test",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -518,9 +598,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.TestValidationController",
+    "ContainingType": "Base.Controllers.TestValidationLINQController",
     "Method": "GetTestSamples",
-    "RelativePath": "api/TestValidation/samples",
+    "RelativePath": "api/TestValidationLINQ/samples",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -538,9 +618,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.TestValidationController",
+    "ContainingType": "Base.Controllers.TestValidationLINQController",
     "Method": "TestUpdateValidation",
-    "RelativePath": "api/TestValidation/update/test",
+    "RelativePath": "api/TestValidationLINQ/update/test",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -564,9 +644,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.VehicleController",
+    "ContainingType": "Base.Controllers.VehicleWithSPController",
     "Method": "GetAll",
-    "RelativePath": "api/Vehicle",
+    "RelativePath": "api/VehicleWithSP",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -584,9 +664,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.VehicleController",
+    "ContainingType": "Base.Controllers.VehicleWithSPController",
     "Method": "Create",
-    "RelativePath": "api/Vehicle",
+    "RelativePath": "api/VehicleWithSP",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -610,9 +690,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.VehicleController",
+    "ContainingType": "Base.Controllers.VehicleWithSPController",
     "Method": "GetById",
-    "RelativePath": "api/Vehicle/{id}",
+    "RelativePath": "api/VehicleWithSP/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -636,9 +716,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.VehicleController",
+    "ContainingType": "Base.Controllers.VehicleWithSPController",
     "Method": "Update",
-    "RelativePath": "api/Vehicle/{id}",
+    "RelativePath": "api/VehicleWithSP/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -667,9 +747,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.VehicleController",
+    "ContainingType": "Base.Controllers.VehicleWithSPController",
     "Method": "Delete",
-    "RelativePath": "api/Vehicle/{id}",
+    "RelativePath": "api/VehicleWithSP/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -693,9 +773,9 @@
     ]
   },
   {
-    "ContainingType": "Base.Controllers.VehicleController",
+    "ContainingType": "Base.Controllers.VehicleWithSPController",
     "Method": "GetSamples",
-    "RelativePath": "api/Vehicle/samples",
+    "RelativePath": "api/VehicleWithSP/samples",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -703,26 +783,6 @@
     "ReturnTypes": [
       {
         "Type": "Base.Utilities.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Base.Controllers.VehicleController",
-    "Method": "SeedStoredProcedures",
-    "RelativePath": "api/Vehicle/seed-sp",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "Base.Utilities.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

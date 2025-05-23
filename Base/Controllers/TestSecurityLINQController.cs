@@ -7,7 +7,7 @@ namespace Base.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class SecuredController : ControllerBase
+    public class TestSecurityLINQController : ControllerBase
     {
         [HttpGet("public")]
         public ActionResult<ApiResponse<object>> PublicEndpoint()

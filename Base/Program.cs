@@ -3,11 +3,22 @@ using Base.Data.Seeding;
 using Base.Models;
 using Base.Utilities;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using AspNetCoreRateLimit;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Register the custom authorization policy provider
+builder.Services.AddSingleton<IAuthorizationPolicyProvider, BypassAuthorizationPolicyProvider>();
+
+// Add rate limiting services
+builder.Services.AddMemoryCache();
+builder.Services.AddSingleton<RateLimitingService>();
+builder.Services.Configure<IpRateLimitOptions>(builder.Configuration.GetSection("IpRateLimiting"));
+builder.Services.AddHttpContextAccessor();
 
 // Add services to the container.
 builder.Services.AddControllers(options =>
@@ -181,17 +192,20 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// Add rate limiting middleware before authentication/authorization
+// This ensures rate limiting happens before any authentication logic
+app.UseCustomRateLimiting();
+
 // Get security bypass setting
 var bypassSecurity = builder.Configuration.GetValue<bool>("Security:BypassSecurity");
+
+// Always register authentication - our custom provider will handle bypassing
+app.UseAuthentication();
+app.UseAuthorization();
+
 if (bypassSecurity)
 {
     app.Logger.LogWarning("GÜVENLİK UYARISI: Kimlik doğrulama ve yetkilendirme kontrolleri devre dışı bırakılmıştır. Bu ayar sadece geliştirme ortamında kullanılmalıdır!");
-}
-else
-{
-    // Activate authentication and authorization
-    app.UseAuthentication();
-    app.UseAuthorization();
 }
 
 app.MapControllers();

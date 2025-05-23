@@ -9,7 +9,7 @@ namespace Base.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class TestValidationController : ControllerBase
+    public class TestValidationLINQController : ControllerBase
     {
         [HttpPost("create/test")]
         public ActionResult<ApiResponse<object>> TestCreateValidation([FromBody] TestCreateDto dto)
@@ -116,8 +116,8 @@ namespace Base.Controllers
                     },
                     TestEndpoints = new[]
                     {
-                        "/api/TestValidation/create/test",
-                        "/api/TestValidation/update/test"
+                        "/api/TestValidationLINQ/create/test",
+                        "/api/TestValidationLINQ/update/test"
                     }
                 },
                 "Test örnekleri oluşturuldu."
